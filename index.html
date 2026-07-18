@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dynamic Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <h1>Dynamic Image Gallery</h1>
+
+        <input type="text" id="searchInput" placeholder="Search images...">
+
+    </header>
+
+
+    <!-- Category Buttons -->
+
+    <section class="categories">
+
+        <button class="active" data-category="all">
+            All
+        </button>
+
+        <button data-category="Nature">
+            Nature
+        </button>
+
+        <button data-category="Architecture">
+            Architecture
+        </button>
+
+        <button data-category="Tech">
+            Tech
+        </button>
+
+    </section>
+
+
+    <!-- Gallery -->
+
+    <section class="gallery" id="gallery">
+
+    </section>
+
+
+    <!-- Modal -->
+
+    <div class="modal" id="modal">
+
+        <span id="closeBtn">&times;</span>
+
+        <img id="modalImage">
+
+    </div>
+
+
+    <footer>
+
+        <p>
+
+            Made with ❤️ using HTML CSS JavaScript
+
+        </p>
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

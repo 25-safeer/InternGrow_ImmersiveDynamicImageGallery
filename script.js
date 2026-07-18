@@ -74,7 +74,7 @@ const images = [
 function displayImages(imageArray) {
 
     gallery.innerHTML = "";
-    
+
     if (imageArray.length === 0) {
         gallery.innerHTML = `<h2 class="no-result">No Images Found</h2>`;
         return;
@@ -90,7 +90,7 @@ function displayImages(imageArray) {
             <h3>${image.title}</h3>
         `;
 
-        // Open modal when image is clicked
+        
         card.querySelector("img").addEventListener("click", function () {
             modal.style.display = "flex";
             modalImage.src = image.image;

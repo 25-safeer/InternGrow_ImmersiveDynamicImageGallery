@@ -14,10 +14,15 @@ body {
 
 
 header {
-    background-color: linear-gradient(135deg, #1f2937, #111827);
+    background: linear-gradient(135deg, #1f2937, #111827);
     color: white;
     text-align: center;
     padding: 25px 15px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
 }
 
 header h1 {
@@ -34,6 +39,7 @@ header h1 {
     border: none;
     border-radius: 8px;
     outline: none;
+ 
 }
 
 #searchInput:focus {
@@ -213,5 +219,5 @@ footer {
     background: #222;
 
     color: white;
-
+   
 }

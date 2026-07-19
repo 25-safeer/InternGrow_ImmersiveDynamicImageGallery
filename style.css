@@ -126,6 +126,7 @@ header h1 {
     display: none;
     position: fixed;
     inset: 0;
+    z-index: 1200;
     background-color: rgba(0, 0, 0, 0.8);
 
     justify-content: center;
@@ -178,6 +179,7 @@ header h1 {
     position: absolute;
     top: 30px;
     right: 40px;
+  
 
     font-size: 40px;
     color: white;
